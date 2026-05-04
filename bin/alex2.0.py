@@ -44,7 +44,7 @@ def run_assistant(command):
 
 
 # Replace with your actual access key from Picovoice Console
-access_key = "59/O/C2TXB7afvwBxwTyt5HZk7SZJZkhbdM5SrV+cwDmLenMnJ3Wfw=="
+access_key = "your_api_key"
 import os
 
 keyword_path = r"C:\python programming\Personal assistant\bin\Alex.ppn"
