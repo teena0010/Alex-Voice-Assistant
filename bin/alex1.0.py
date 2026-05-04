@@ -86,7 +86,7 @@ def run_assistant(command):
         speak("I didn't catch that. Can you repeat?")
 
 # Replace with your actual access key from Picovoice Console
-access_key = "59/O/C2TXB7afvwBxwTyt5HZk7SZJZkhbdM5SrV+cwDmLenMnJ3Wfw=="
+access_key = "your_api_key"
 
 porcupine = pvporcupine.create(access_key=access_key, keyword_paths=["Alex.ppn"])
 pa = pyaudio.PyAudio()        #- Initializes PyAudio, which lets you access your microphone for audio input.
