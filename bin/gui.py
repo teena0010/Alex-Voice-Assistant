@@ -27,7 +27,7 @@ chat_box = scrolledtext.ScrolledText(root, wrap=tk.WORD, width=60, height=20, fo
 chat_box.pack(padx=10, pady=10)
 
 # Porcupine wake word setup
-access_key = "59/O/C2TXB7afvwBxwTyt5HZk7SZJZkhbdM5SrV+cwDmLenMnJ3Wfw=="  # replace with your key
+access_key = "your_api_key"  # replace with your key
 keyword_path = r"C:\python programming\Personal assistant\bin\Alex.ppn"
 porcupine = pvporcupine.create(access_key=access_key, keyword_paths=[keyword_path])
 
